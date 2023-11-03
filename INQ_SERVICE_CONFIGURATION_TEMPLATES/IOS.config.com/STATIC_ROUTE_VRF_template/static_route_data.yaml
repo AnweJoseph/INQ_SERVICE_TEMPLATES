@@ -1,0 +1,10 @@
+---
+
+name: STATIC_ROUTE_VRF
+
+static:
+  vrf: SAT3INTERNET
+  dest_network: "41.75.206.76"
+  dest_subnet_mask: "255.255.255.252"
+  gateway: "217.75.206.2"
+  description: TATA_LAN

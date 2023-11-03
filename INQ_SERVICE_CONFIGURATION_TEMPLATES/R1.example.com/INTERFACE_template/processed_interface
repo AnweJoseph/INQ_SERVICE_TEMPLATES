@@ -1,0 +1,11 @@
+interface FastEthernet 0/1.200
+description CONFIGURED USING PYTHON NORNIR NETMIKO TEST - NG.VLK.00600
+bandwidth 10240
+encapsulation dot1q 200
+ip vrf forwarding SAT3INTERNET
+ip address 155.93.90.1 255.255.255.252
+service-policy input 10M
+service-policy output 10M
+
+interface FastEthernet 0/1
+no shutdown

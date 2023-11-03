@@ -1,0 +1,38 @@
+[
+  {
+    "port": "Fa0/0",
+    "status": "up",
+    "protocol": "up",
+    "descrip": "CONNECTION-TO-CLOUD-SWITCH"
+  },
+  {
+    "port": "Fa0/1",
+    "status": "up",
+    "protocol": "up",
+    "descrip": ""
+  },
+  {
+    "port": "Fa0/1.100",
+    "status": "up",
+    "protocol": "up",
+    "descrip": "Configuration Deleted. Note that client has terminated their service."
+  },
+  {
+    "port": "Fa0/1.200",
+    "status": "up",
+    "protocol": "up",
+    "descrip": "CONFIGURED USING PYTHON NORNIR NETMIKO TEST - NG.VLK.00600"
+  },
+  {
+    "port": "Fa1/0",
+    "status": "admin down",
+    "protocol": "down",
+    "descrip": ""
+  },
+  {
+    "port": "Fa2/0",
+    "status": "up",
+    "protocol": "up",
+    "descrip": "Ansible Configured Interface"
+  }
+]

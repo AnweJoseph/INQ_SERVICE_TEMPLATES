@@ -1,0 +1,9 @@
+---
+
+name: VRF
+
+vrf:
+  client_vrf: SAT3INTERNET
+  rd: "101:101"
+  rt_export: "101:101"
+  rt_import: "101:101"

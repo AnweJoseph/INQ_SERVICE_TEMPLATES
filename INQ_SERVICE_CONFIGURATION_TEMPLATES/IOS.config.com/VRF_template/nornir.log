@@ -1,0 +1,2 @@
+2023-09-06 19:10:07,768 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'processed_vrf'} on 1 hosts
+2023-09-06 19:10:13,513 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {'cmd': 'write'} on 1 hosts

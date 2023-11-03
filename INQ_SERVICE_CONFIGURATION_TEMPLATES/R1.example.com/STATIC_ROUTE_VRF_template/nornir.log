@@ -1,0 +1,2 @@
+2023-09-08 20:16:33,033 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'processed_static'} on 1 hosts
+2023-09-08 20:16:41,944 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {'cmd': 'write'} on 1 hosts

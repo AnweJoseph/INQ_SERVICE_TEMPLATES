@@ -1,0 +1,4 @@
+ip vrf SAT3INTERNET
+rd 101:101
+route-target export 101:101
+route-target import 101:101

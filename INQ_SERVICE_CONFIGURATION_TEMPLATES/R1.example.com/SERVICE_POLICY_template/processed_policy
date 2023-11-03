@@ -1,0 +1,3 @@
+policy-map 10M
+class class-default
+police 10240 bc 6144 be 6144 conform-action exceed-action drop

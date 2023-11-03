@@ -1,0 +1,12 @@
+interface FastEthernet {{int.sub_int}}
+description {{int.description}} - {{int.cct_id}}
+bandwidth {{int.bandwidth}}
+encapsulation dot1q {{int.encap}}
+ip vrf forwarding {{int.vrf}}
+ip address {{int.ip_addr}} {{int.sub_mask}}
+service-policy input {{int.service_policy_in}}
+service-policy output {{int.service_policy_out}}
+
+interface FastEthernet {{int.phy_int}}
+no shutdown
+

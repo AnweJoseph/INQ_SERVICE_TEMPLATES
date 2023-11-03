@@ -1,0 +1,16 @@
+---
+
+name: INTERFACE
+
+int:
+  phy_int: "0/1"
+  sub_int: "0/1.200"
+  description: CONFIGURED USING PYTHON NORNIR NETMIKO TEST
+  cct_id: NG.VLK.00600
+  bandwidth: "10240"
+  encap: "200"
+  vrf: SAT3INTERNET
+  ip_addr: "155.93.90.1" 
+  sub_mask: "255.255.255.252"
+  service_policy_in: 10M
+  service_policy_out: 10M

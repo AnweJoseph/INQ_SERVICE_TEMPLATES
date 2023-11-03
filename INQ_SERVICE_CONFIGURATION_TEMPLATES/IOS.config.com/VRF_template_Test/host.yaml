@@ -1,0 +1,6 @@
+---
+
+R1.example.com:
+  hostname: "R1.example.com"
+  groups:
+    - cisco

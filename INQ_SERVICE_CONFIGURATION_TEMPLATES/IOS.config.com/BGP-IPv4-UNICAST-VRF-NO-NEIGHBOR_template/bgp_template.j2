@@ -1,0 +1,4 @@
+router bgp {{bgp.bgp_asn}}
+address-family ipv4 vrf {{bgp.bgp_vrf}}
+redistribute connected 
+redistribute static

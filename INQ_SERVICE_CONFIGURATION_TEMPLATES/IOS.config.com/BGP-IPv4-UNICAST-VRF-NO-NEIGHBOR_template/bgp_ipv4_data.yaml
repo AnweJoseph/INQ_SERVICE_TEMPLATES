@@ -1,0 +1,7 @@
+---
+
+name: BGP_IPV4
+
+bgp:
+  bgp_asn: "64513"
+  bgp_vrf: SAT3INTERNET

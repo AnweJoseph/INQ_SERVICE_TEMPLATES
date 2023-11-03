@@ -1,0 +1,4 @@
+policy-map {{policy.policy_name}}
+class class-default
+police {{policy.bandwidth}} bc 6144 be 6144 conform-action exceed-action drop
+

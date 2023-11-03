@@ -1,0 +1,7 @@
+---
+
+name: SERVICE_POLICY
+
+policy:
+  policy_name: "10M"
+  bandwidth: "10240"

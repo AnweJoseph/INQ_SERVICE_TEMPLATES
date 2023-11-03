@@ -1,0 +1,4 @@
+router bgp 64513
+address-family ipv4 vrf SAT3INTERNET
+redistribute connected 
+redistribute static
